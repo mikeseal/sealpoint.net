@@ -1,10 +1,8 @@
 <?
 $Name=$_POST['name'];
 $Email=$_POST['email'];
-$subject=$_POST['subject'];
 $message=$_POST['message'];
 $body .= "Email: " . $Email . "\n";
-$body .= "subject: " . $subject . "\n";
 $body .= "Message: " . $message . "\n";
 //replace with your email
 mail("support@sealpoint.net","Sealpoint Web Site",$body);
