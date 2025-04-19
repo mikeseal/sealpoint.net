@@ -2,6 +2,7 @@
 $Name=$_POST['name'];
 $Email=$_POST['email'];
 $message=$_POST['message'];
+$body .= "Name: " . $Name . "\n";
 $body .= "Email: " . $Email . "\n";
 $body .= "Message: " . $message . "\n";
 //replace with your email
